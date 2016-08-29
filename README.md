@@ -95,7 +95,6 @@ into `http` block if it does not already exist:
         include sites-enabled/*.conf;
     }
 
-
 Create a virtual host configuration file for your project under `/path/to/nginx/sites-enabled/zf2-app.localhost.conf`
 it should look something like below:
 
@@ -118,3 +117,5 @@ it should look something like below:
     }
 
 Restart the nginx, now you should be ready to go!
+
+CCO - TRaining - 2016
